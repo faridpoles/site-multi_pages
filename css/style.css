@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #2980b9;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Anton", sans-serif;
+    
+}
+header {
+    background-color: #2c3e50;
+    border-top: 2px solid #2980B9
+    
+}
+
+#logo {
+    float: left;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+}
+#slogan {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+}
+
+#social {
+float: left;
+width: 25%;
+}
+
+#social i {
+    font-size: 30px;
+    text-align: right;
+    padding: 15px 30px 0 0;
+    display: block;
+}
+
+header a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    font-size: 350%;
+    color: #2d6c7f;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
