@@ -211,16 +211,16 @@ figcaption {
 	0% {
 	  transform: rotate(0);
 	}
-	35% {
+	30% {
 	  transform: rotate(360deg);
 	}
-	50% {
+	40% {
 		transform: translate(0px,-50px);
 	}
-	70% {
+	60% {
 		transform: translate(0px,0px);
 	}
-	80% {
+	65% {
 		transform: rotate(0deg);
 	}
 	100% {transform: rotate(-360deg);}
