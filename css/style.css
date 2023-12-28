@@ -203,7 +203,7 @@ figcaption {
 
 .image2:hover {
 	animation-name: rotatation;
-  	animation-duration: 3s;
+  	animation-duration: 4s;
   	animation-iteration-count: 3;
 }
 
@@ -211,15 +211,19 @@ figcaption {
 	0% {
 	  transform: rotate(0);
 	}
-	70% {
+	35% {
 	  transform: rotate(360deg);
 	}
-	85% {
+	50% {
 		transform: translate(0px,-50px);
 	}
-	100% {
+	70% {
 		transform: translate(0px,0px);
 	}
+	80% {
+		transform: rotate(0deg);
+	}
+	100% {transform: rotate(-360deg);}
   }
 
 
