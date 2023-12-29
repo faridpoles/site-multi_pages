@@ -300,3 +300,65 @@ figcaption {
 	color: white;
 	border: 10px outset rgb(51, 51, 255);
 }
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	font-weight: bolder;
+	text-align: center;
+}
+
+td, tr{
+	/* border: 2px solid #6495ED; */
+	padding: 5px;
+}
+td {
+	border: 1px solid #6495ED;
+}
+
+tbody th {
+	border: 1px solid #6495ED;
+}
+
+thead tr {
+	border-top: 2px solid #6495ED;
+	border-left: 2px solid #6495ED;
+	border-right: 2px solid #6495ED;
+}
+tbody tr {
+	border-left: 2px solid #6495ED;
+	border-right: 2px solid #6495ED;
+}
+tfoot tr {
+	border-left: 2px solid #6495ED;
+	border-right: 2px solid #6495ED;
+	border-bottom: 2px solid #6495ED;
+}
+td {
+	font-size: 14px;
+	width: 200px;
+}
+
+th {
+	width: 200px;
+}
+
+thead tr td:nth-child(1n+1) {
+	background-color: #D0E3FA;
+}
+
+thead tr :first-child {
+	background-color: #D0E3FA;
+}
+
+tfoot tr td:nth-child(1n+1) {
+	background-color: #D0E3FA;
+}
+
+tfoot tr :first-child {
+	background-color: #D0E3FA;
+}
+
+.rotate {
+	transform: rotate(-45deg);
+}
