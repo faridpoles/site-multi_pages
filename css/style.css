@@ -301,64 +301,82 @@ figcaption {
 	border: 10px outset rgb(51, 51, 255);
 }
 
-table {
+.tableau table {
 	border-collapse: collapse;
+	border: 2px solid #6495ed;
+	font-weight: bold;
 	margin: auto;
-	font-weight: bolder;
+	width: 80%;
+}
+.tableau thead,
+.tableau tfoot {
+	background: #d0e3fa;
+	border: 1px solid #6495ed;
+}
+.tableau tbody {
+	border: 1px solid #6495ed;
+}
+.tableau th {
+	border: 1px solid #6495ed;
+	padding: 5px;
+	width: 20%;
+}
+.tableau td {
+	border: 1px solid #6495ed;
+	font-size: 80%;
+	padding: 5px;
 	text-align: center;
 }
-
-td, tr{
-	/* border: 2px solid #6495ED; */
-	padding: 5px;
+#zoning1 {
+	background: #ffd6d6;
+	width: 800px;
+	text-align: center;
+	text-shadow: 1px 1px 2px darkgrey;
+	margin: auto;
 }
-td {
-	border: 1px solid #6495ED;
+#zoning1 header {
+	height: 70px;
+	background: #f7f39a;
 }
-
-tbody th {
-	border: 1px solid #6495ED;
+#zoning1 aside {
+	height: 525px;
+	float: left;
+	width: 20%;
+	background: #a3de83;
 }
-
-thead tr {
-	border-top: 2px solid #6495ED;
-	border-left: 2px solid #6495ED;
-	border-right: 2px solid #6495ED;
+#zoning1 section {
+	float: left;
+	background: #38817a;
+	height: 525px;
+	width: 80%;
+	margin: 0;
+	padding: 0;
 }
-tbody tr {
-	border-left: 2px solid #6495ED;
-	border-right: 2px solid #6495ED;
+/**********************Zoning 2 ************************/
+#zoning2 {
+	background: #ffd6d6;
+	width: 500px;
+	text-align: center;
+	text-shadow: 1px 1px 1px darkgrey;
+	margin: auto;
 }
-tfoot tr {
-	border-left: 2px solid #6495ED;
-	border-right: 2px solid #6495ED;
-	border-bottom: 2px solid #6495ED;
+#zoning2 header {
+	height: 70px;
+	background: #f8f5e4;
 }
-td {
-	font-size: 14px;
-	width: 200px;
+#zoning2 aside {
+	height: 525px;
+	float: left;
+	width: 20%;
+	background: #10828c;
+	color: white;
 }
-
-th {
-	width: 200px;
-}
-
-thead tr td:nth-child(1n+1) {
-	background-color: #D0E3FA;
-}
-
-thead tr :first-child {
-	background-color: #D0E3FA;
-}
-
-tfoot tr td:nth-child(1n+1) {
-	background-color: #D0E3FA;
-}
-
-tfoot tr :first-child {
-	background-color: #D0E3FA;
-}
-
-.rotate {
-	transform: rotate(-45deg);
+#zoning2 .middle {
+	float: left;
+	background: #0e3047;
+	height: 525px;
+	width: 60%;
+	margin: 0;
+	padding: 0;
+	color: white;
 }
