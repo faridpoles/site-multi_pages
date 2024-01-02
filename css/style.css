@@ -581,3 +581,60 @@ footer {
 	color: white;
 }
 
+
+/******************* LISTE*******************/
+
+.fruit {
+	list-style: none;
+	display: flex;
+}
+
+.fruit li {
+	margin-right: 20px;
+}
+
+.fruit li i:hover {
+	font-size: 25px;
+	color: red;
+}
+.europe ul li {
+	width: 100px;
+}
+.europe ul li:hover {
+	font-size: 25px;
+	background-color: red;
+}
+
+.asie ul li {
+	width: 80px;
+}
+
+.asie ul li:hover {
+	font-size: 25px;
+	background-color: red;
+}
+
+.imbriquee .europe li {
+	display: none;
+}
+
+.imbriquee .europe:hover li {
+	display: list-item;
+	cursor: pointer;
+}
+
+.imbriquee .asie li {
+	display: none;
+}
+
+.imbriquee .asie:hover li {
+	cursor: pointer;
+	display: list-item;
+}
+
+
+
+
+
+
+
